@@ -1,5 +1,5 @@
 # alarma-web-ux
-## Ejecucion: de forma local: 
+## Ejecución local: 
 
 1. descargar código 
 2. mover a la carpeta mynewap/
