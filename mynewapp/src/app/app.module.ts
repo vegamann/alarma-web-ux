@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AgendaModule } from './agenda/agenda.module';
+import { AlarmasComponent } from './alarmas/alarmas.component';
+import { AlarmasModule } from './alarmas/alarmas.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +19,8 @@ import { PerfilModule } from './perfil/perfil.module';
     AppRoutingModule,
     PerfilModule,
     LoginModule,
-    AgendaModule
+    AgendaModule,
+    AlarmasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
