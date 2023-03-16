@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { LoginModule } from './login/login.module';
+import { LugaresComponent } from './lugares/lugares.component';
+import { LugaresModule } from './lugares/lugares.module';
 import { PerfilModule } from './perfil/perfil.module';
 
 @NgModule({
@@ -20,7 +22,8 @@ import { PerfilModule } from './perfil/perfil.module';
     PerfilModule,
     LoginModule,
     AgendaModule,
-    AlarmasModule
+    AlarmasModule,
+    LugaresModule
   ],
   providers: [],
   bootstrap: [AppComponent]
